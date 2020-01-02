@@ -23,7 +23,7 @@ Bundle 'Valloric/YouCompleteMe'
 Plugin 'kien/ctrlp.vim'
 
 "code folding
-Plugin 'tmhedberg/SimpylFold'
+"Plugin 'tmhedberg/SimpylFold'
 
 " python plugins
 Plugin 'vim-syntastic/syntastic'
@@ -39,7 +39,7 @@ call vundle#end()            " required
 filetype plugin indent on    " required
 
 " folding
-let g:SimpylFold_docstring_preview = 1
+"let g:SimpylFold_docstring_preview = 1
 
 " autocomplete customization
 let g:ycm_autoclose_preview_window_after_completion=1
@@ -109,9 +109,9 @@ set backspace=indent,eol,start
 
 
 "Folding based on indentation:
-autocmd FileType python set foldmethod=indent
+"autocmd FileType python set foldmethod=indent
 "use space to open folds
-nnoremap <space> za
+"nnoremap <space> za
 
 "----------Stop python PEP 8 stuff--------------
 
